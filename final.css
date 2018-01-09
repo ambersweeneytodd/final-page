@@ -1,0 +1,160 @@
+<style>
+
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+
+body > header nav {
+	display: block;
+	text-align: right;
+	width: 100%;
+	height: 100%;
+	background-color: ;
+	border-bottom: 0px solid black;
+   height: 18px;
+   width:px;
+   left:0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   position: absolute;
+	 background: orange;
+ /*background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);*/
+ background-size: 1800% 1800%;
+
+ -webkit-animation: rainbow 18s ease infinite;
+ -z-animation: rainbow 18s ease infinite;
+ -o-animation: rainbow 18s ease infinite;
+   animation: rainbow 18s ease infinite;}
+
+ /*@-webkit-keyframes rainbow {
+     0%{background-position:0% 82%}
+     50%{background-position:100% 19%}
+     100%{background-position:0% 82%}
+ }
+ @-moz-keyframes rainbow {
+     0%{background-position:0% 82%}
+     50%{background-position:100% 19%}
+     100%{background-position:0% 82%}
+ }
+ @-o-keyframes rainbow {
+     0%{background-position:0% 82%}
+     50%{background-position:100% 19%}
+     100%{background-position:0% 82%}
+ }
+ @keyframes rainbow {
+     0%{background-position:0% 82%}
+     50%{background-position:100% 19%}
+     100%{baackground-position:0% 80%}
+ }*/
+
+body > header > nav ul li {
+	display: inline;
+	padding-right: 25px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	color: orange;
+}
+
+body > header > nav ul li a {
+	color: white;
+	text-decoration: none;
+	letter-spacing: 0.25em;
+}
+
+body > header > nav ul li a:visited {
+	color:white;
+}
+
+
+body > header > nav ul li a:hover {
+	color: orange;
+}
+
+body > header > nav ul li a:active {
+	color:black;
+}
+
+article {
+	position: relative;
+	display: block;
+}
+
+article header img {
+	display: block;
+	width: 100%;
+}
+
+/*GitHub Question Boxes*/
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:grey;
+}
+
+.container:hover .overlay {
+  opacity: .75;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.left {
+	text-align: left;
+}
+
+.bottom-right {
+    position: left;
+    bottom: 8px;
+    right: 500px;
+}
+
+.bestwork {
+	display: block;
+  margin-bottom: auto;
+	max-width: 1800px
+}
+
+p, h3, h4 {
+	font-size: 20px;
+	font-family: monospace;
+}
+
+h2 {
+	font-size: 40px;
+	font-family: monospace;
+}
+
+table, th, td {
+    border: 2px solid orange;
+		font-family: monospace;
+		text-align: center;
+}
+
+
+
+</style>
