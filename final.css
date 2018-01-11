@@ -124,7 +124,7 @@ article header img {
 }
 
 .left {
-	text-align: left;
+	text-align: center;
 }
 
 .bottom-right {
@@ -137,6 +137,11 @@ article header img {
 	display: block;
   margin-bottom: auto;
 	max-width: 1800px
+}
+
+.stretch {
+	height: 50px;
+	width: 1600px;
 }
 
 p, h3, h4 {
